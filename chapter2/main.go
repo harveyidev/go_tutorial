@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+var out = 100
+
 //这里是程序入口
 func main() {
 	// 快捷键  ctrl + /
@@ -54,4 +56,7 @@ func main() {
 		fmt.Println(ccc)
 	}
 	bbb()
+
+	fmt.Println(out)
+
 }
