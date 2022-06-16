@@ -18,4 +18,19 @@ func main() {
 	fmt.Println("!a1 || b1", !a1 || b1)
 	fmt.Println("!a1", !a1)
 	fmt.Println("!b1", !b1)
+	fmt.Println("!!b1", !!b1)
+
+	age := 23
+	if age <= 6 {
+		fmt.Println("儿童")
+	}
+
+	if age > 7 && age < 18 {
+		fmt.Println("大龄儿童")
+	}
+
+	name, phone := "", ""
+	age1 := 0
+	fmt.Scanf("%s %s %d", &name, &phone, &age1)
+
 }
